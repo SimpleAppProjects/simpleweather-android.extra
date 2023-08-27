@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_sub_alreadypurchased">"Abonnement is al aangeschaft"</string>
+    <string name="pref_title_premium">"Premium"</string>
+    <string name="message_sub_active">"Premium is actief"</string>
+    <string name="message_sub_thanksforsupport">"Bedankt voor je ondersteuning!"</string>
+    <string name="message_premium_prompt">"Ondersteun de app door premium aan te schaffen!"</string>
+    <string name="premium_addon_icons">"Aanvullende Iconensets"</string>
+    <string name="premium_addon_radar">"Radar Voorspelling"</string>
+
+    <!-- "Additional Weather Providers" or "Additional Data Sources" -->
+    <!-- "Additional Weather Providers" or "Additional Data Sources" -->
+    <string name="premium_addon_wproviders">"Aanvullende Weeraanbieders"</string>
+    <string name="premium_addon_supportdev">"Ondersteun appontwikkeling"</string>
+    <string name="label_restore">"Herstellen"</string>
+    <string name="manage_subs">"Beheer abonnementen"</string>
+    <string name="message_premium_required">"Premium vereist"</string>
+</resources>

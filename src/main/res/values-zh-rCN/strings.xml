@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fuzzy -->
+    <string name="message_sub_alreadypurchased">"已购买订阅"</string>
+    <string name="pref_title_premium">"专业版"</string>
+    <string name="message_sub_active">"专业版已激活"</string>
+    <string name="message_sub_thanksforsupport">"感谢您的支持！"</string>
+    <string name="message_premium_prompt">"获取专业版来支持此应用！"</string>
+    <string name="premium_addon_icons">"额外的图标包"</string>
+    <string name="premium_addon_radar">"雷达预报"</string>
+
+    <!-- "Additional Weather Providers" or "Additional Data Sources" -->
+    <!-- "Additional Weather Providers" or "Additional Data Sources" -->
+    <string name="premium_addon_wproviders">"额外的数据源"</string>
+
+    <!-- Fuzzy -->
+    <string name="premium_addon_supportdev">"支持应用程序开发"</string>
+    <string name="label_restore">"恢复"</string>
+    <string name="manage_subs">"管理订阅"</string>
+    <string name="message_premium_required">"需要专业版"</string>
+</resources>

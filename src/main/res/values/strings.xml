@@ -1,0 +1,14 @@
+<resources>
+    <string name="pref_title_premium">Premium</string>
+    <string name="message_sub_alreadypurchased">Subscription already purchased</string>
+    <string name="message_sub_active">Premium is active</string>
+    <string name="message_sub_thanksforsupport">Thank you for your support!</string>
+    <string name="message_premium_prompt">Help support the app by getting premium!</string>
+    <string name="premium_addon_icons">Additional Icon Sets</string>
+    <string name="premium_addon_radar">Radar Forecast</string>
+    <string name="premium_addon_wproviders">Additional Weather Providers</string>
+    <string name="premium_addon_supportdev">Support app development</string>
+    <string name="label_restore">Restore</string>
+    <string name="manage_subs">Manage subscriptions</string>
+    <string name="message_premium_required">Premium required</string>
+</resources>

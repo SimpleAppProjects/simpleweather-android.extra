@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_sub_alreadypurchased">"Suscripción ya comprada"</string>
+    <string name="pref_title_premium">"Premium"</string>
+    <string name="message_sub_active">"Premium está activa"</string>
+    <string name="message_sub_thanksforsupport">"Gracias por su apoyo!"</string>
+    <string name="message_premium_prompt">"Ayude a apoyar la aplicación adquiriendo la versión premium!"</string>
+
+    <!-- Fuzzy -->
+    <string name="premium_addon_icons">"Conjuntos de iconos adicionales"</string>
+    <string name="premium_addon_radar">"Pronóstico de radar"</string>
+
+    <!-- "Additional Weather Providers" or "Additional Data Sources" -->
+    <!-- "Additional Weather Providers" or "Additional Data Sources" -->
+    <string name="premium_addon_wproviders">"Proveedores del tiempo adicionales"</string>
+    <string name="premium_addon_supportdev">"Apoyo al desarrollo de aplicaciones"</string>
+    <string name="label_restore">"Restaurar"</string>
+    <string name="manage_subs">"Gestionar las suscripciones"</string>
+    <string name="message_premium_required">"Premium requerida"</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fuzzy -->
+    <string name="message_sub_alreadypurchased">"Abonnement bereits gekauft"</string>
+    <string name="pref_title_premium">"Premium"</string>
+    <string name="message_sub_active">"Premium ist aktiv"</string>
+    <string name="message_sub_thanksforsupport">"Vielen Dank für Ihre Unterstützung!"</string>
+    <string name="message_premium_prompt">"Helfen Sie, die App zu unterstützen, indem Sie Premium erhalten!"</string>
+    <string name="premium_addon_icons">"Zusätzliche Icon-Sets"</string>
+    <string name="premium_addon_radar">"Radarvorhersage"</string>
+
+    <!-- "Additional Weather Providers" or "Additional Data Sources" -->
+    <!-- "Additional Weather Providers" or "Additional Data Sources" -->
+    <string name="premium_addon_wproviders">"Zusätzliche Wetterdienstleister"</string>
+    <string name="premium_addon_supportdev">"Unterstützung der App-Entwicklung"</string>
+    <string name="label_restore">"Wiederherstellen"</string>
+    <string name="manage_subs">"Abonnements verwalten"</string>
+    <string name="message_premium_required">"Premium erforderlich"</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fuzzy -->
+    <string name="message_sub_alreadypurchased">"Predplatné je už zakúpené"</string>
+    <string name="pref_title_premium">"Premium"</string>
+    <string name="message_sub_active">"Premium je aktívny"</string>
+    <string name="message_sub_thanksforsupport">"Ďakujem za tvoju podporu!"</string>
+    <string name="message_premium_prompt">"Pomôžte podporiť aplikáciu získaním prémie!"</string>
+    <string name="premium_addon_icons">"Ďalšie sady ikon"</string>
+    <string name="premium_addon_radar">"Radarová predpoveď"</string>
+
+    <!-- "Additional Weather Providers" or "Additional Data Sources" -->
+    <!-- "Additional Weather Providers" or "Additional Data Sources" -->
+    <string name="premium_addon_wproviders">"Ďalší poskytovatelia počasia"</string>
+    <string name="premium_addon_supportdev">"Podporujte vývoj aplikácií"</string>
+    <string name="label_restore">"Obnoviť"</string>
+    <string name="manage_subs">"Spravovať predplatné"</string>
+    <string name="message_premium_required">"Premium požadované"</string>
+</resources>
