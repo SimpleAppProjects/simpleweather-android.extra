@@ -15,23 +15,25 @@ class ExtrasModule internal constructor() {
 
     fun checkPremiumStatus() {}
 
-    fun enableExtras() {}
+    fun enablePremiumAccess() {}
+
+    fun enableProAccess() {}
 
     fun disableExtras() {}
 
-    fun isEnabled(): Boolean {
-        return true
-    }
+    fun disableProAccess() {}
 
-    fun isIconPackSupported(packKey: String?): Boolean {
-        return true
-    }
+    fun disablePremiumAccess() {}
 
-    fun isWeatherAPISupported(api: String?): Boolean {
-        return true
-    }
+    fun isAtLeastProEnabled(): Boolean = isProEnabled() || isPremiumEnabled()
 
-    fun isPremiumWeatherAPI(api: String?): Boolean {
-        return false
-    }
+    fun isPremiumEnabled(): Boolean = true
+
+    fun isProEnabled(): Boolean = true
+
+    fun isIconPackSupported(packKey: String?): Boolean = true
+
+    fun isWeatherAPISupported(api: String?): Boolean = true
+
+    fun isPremiumWeatherAPI(api: String?): Boolean = false
 }
