@@ -1,14 +1,15 @@
 plugins {
     id 'com.android.library'
     id 'kotlin-android'
+    id 'kotlin-kapt'
 }
 
 android {
-    compileSdk rootProject.compileSdkVersion
+    compileSdk = libs.versions.compileSdkVersion.get().toInteger()
 
     defaultConfig {
-        minSdkVersion rootProject.minSdkVersion
-        targetSdkVersion rootProject.targetSdkVersion
+        minSdkVersion libs.versions.minSdkVersion.get().toInteger()
+        targetSdkVersion libs.versions.targetSdkVersion.get().toInteger()
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -48,19 +49,19 @@ android {
 }
 
 dependencies {
-    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:$desugar_version"
+    coreLibraryDesugaring libs.desugar.jdk.libs
 
     implementation project(":shared_resources")
     implementation project(":weathericons")
 
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation "androidx.test.ext:junit:$junit_version"
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+    testImplementation libs.junit
+    androidTestImplementation libs.test.ext.junit
+    androidTestImplementation libs.espresso.core
 
-    implementation "androidx.core:core-ktx:$core_version"
-    implementation "androidx.constraintlayout:constraintlayout:$constraintlayout_version"
-    implementation "androidx.recyclerview:recyclerview:$recyclerview_version"
-    implementation "androidx.work:work-runtime-ktx:$work_version"
-    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
-    implementation "com.google.android.material:material:$material_version"
+    implementation libs.core.ktx
+    implementation libs.constraintlayout
+    implementation libs.recyclerview
+    implementation libs.work.runtime.ktx
+    implementation libs.lifecycle.runtime.ktx
+    implementation libs.material
 }
